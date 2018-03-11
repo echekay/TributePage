@@ -1,0 +1,32 @@
+/* font-family: 'Metamorphous', cursive; */
+body {
+  font-family: 'Metamorphous', cursive;
+  text-align: center;
+  background-color: #82734f;
+}
+
+.profile-image {
+  height: 315px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.summary {
+  padding-top: 10px;
+}
+
+.filmography{
+  list-style-position: inside;
+}
+
+.third {
+  margin: 0 auto;
+}
+
+a {
+  color: #000;
+}
+.contact-links {
+  padding-top: 10px;
+}
