@@ -10,6 +10,8 @@ body {
   width: 250px;
   display: block;
   margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 25px;
 }
 
 .summary {
@@ -28,5 +30,14 @@ a {
   color: #000;
 }
 .contact-links {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.heading {
+  color: gold;
+}
+
+.title {
   padding-top: 10px;
 }
