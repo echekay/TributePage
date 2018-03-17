@@ -29,6 +29,10 @@ body {
 a {
   color: #000;
 }
+
+a:hover {
+  color: gold;
+}
 .contact-links {
   padding-top: 10px;
   padding-bottom: 10px;
