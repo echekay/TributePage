@@ -12,18 +12,20 @@
 </head>
 <body>
 
-  <div class="container">
+  <div class="container" id="main">
   <div class="header">
-    <h1 class="heading title">Guillermo del Toro</h1>
+    <h1 class="heading" id="title">Guillermo del Toro</h1>
   </div>
 
-  <div class="profile">
-    <img class="profile-image" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Guillermo_del_Toro_in_2017.jpg" alt="Guillermo del Toro Image">
-    <p class="summary">Born October 9, 1964, Guillermo del Toro is a Mexican film director, writer, producer and overall a gift to cinema and the world over. He is the director of numerous critically-acclaimed films such as Cronos, The Devil's Backbone, Pan's Labyrinth, and The shape of Water.</p>
+  <div class="profile" id="img-div">
+    <img class="profile-image" id="image" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Guillermo_del_Toro_in_2017.jpg" alt="Guillermo del Toro Image">
+    <p id="img-caption">Image of Guillermo del Toro at the Sitges Film Festival in 2017.</p>
+    <h3 class="heading">Bio</h3>
+    <p id="tribute-info">Born October 9, 1964, Guillermo del Toro is a Mexican film director, writer, producer and overall a gift to cinema and the world over. He is the director of numerous critically-acclaimed films such as Cronos, The Devil's Backbone, Pan's Labyrinth, and The shape of Water.</p>
   </div>
 
   <div class="filmography">
-    <h3 class="heading">Films Directed:</h3>
+    <h3 class="heading">Films Directed</h3>
 
 <!--     <ul>
       <li>The Shape of Water(2017)</li>
@@ -38,7 +40,7 @@
       <li>Cronos(1993)</li>
     </ul> -->
 
-<!-- Use The Movie Database API to generate movie poster content. Username === echekay -->
+<!-- Use The Open Movie Database API to generate movie poster content. -->
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -66,9 +68,11 @@
 
   <div class="quotes">
     <h3 class="heading">Quotes</h3>
-    <p>"There is beauty and humility in imperfection."</p>
-    <p>"When I was a kid, monsters made me feel that I could fit somewhere, even if it was...an imaginary place where the grotesque and the abnormal were celebrated and accepted."
+    <p>- "There is beauty and humility in imperfection."</p>
+    <p>- "When I was a kid, monsters made me feel that I could fit somewhere, even if it was...an imaginary place where the grotesque and the abnormal were celebrated and accepted."
   </div>
+
+  <!-- The below code was to be a carousel of images from GDT's notebooks. Might want to switch layout from carousel to a grid of images since there is already another carousel up above. -->
 
 <!--   <div class="notebookCarousel">
     <h3 class="heading">Notebook Sketches</h3>
@@ -97,7 +101,7 @@
 
   <div class="contact-links">
     <h3 class="heading">Contact Links</h3>
-    <a href="https://en.wikipedia.org/wiki/Guillermo_del_Toro" target="_blank">Wikipedia |</a>
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Guillermo_del_Toro" target="_blank">Wikipedia |</a>
     <a href="http://www.imdb.com/name/nm0868219/?ref_=nmawd_awd_nm" target="_blank">IMDB |</a>
     <a href="http://deltorofilms.com/" target="_blank">Fan Site</a>
   </div>

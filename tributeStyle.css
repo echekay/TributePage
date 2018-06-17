@@ -3,6 +3,8 @@ body {
   font-family: 'Metamorphous', cursive;
   text-align: center;
   background-color: #82734f;
+  font-weight: bolder;
+  color: #000;
 }
 
 .profile-image {
@@ -14,7 +16,13 @@ body {
   border-radius: 25px;
 }
 
-.summary {
+#img-caption {
+  padding-top: 5px;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+#tribute-info {
   padding-top: 10px;
 }
 
@@ -42,6 +50,26 @@ a:hover {
   color: gold;
 }
 
-.title {
+#title {
   padding-top: 10px;
+}
+
+/*============================================*/
+
+/*Version 2.0 - Change layout from Bootstrap to CSS Grid*/
+
+/*CSS Grid Layout Below*/
+
+/* header
+   profile image
+   short bio
+   films directed
+   quotes
+   notebook sketches
+   Footer/Contact Links
+*/
+
+.container {
+  display: grid;
+
 }
